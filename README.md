@@ -1,7 +1,6 @@
-[![Discord](https://img.shields.io/badge/Discord-%40Invoify-000000?style=flat&logo=Discord&logoColor=#5865F2)](https://discord.gg/BzT6g4Wj)
-# Invoify
+# invoiceify
 
-Invoify is a web-based invoice generator application built with Next.js 13, TypeScript, React, and the Shadcn UI library. It provides an easy way to create and manage professional invoices.
+invoiceify is a web-based invoice generator application built with Next.js 13, TypeScript, React, and the Shadcn UI library. It provides an easy way to create and manage professional invoices.
 
 ![Invoify Website image](/public/assets/img/invoify-web-app.png)
 
@@ -51,13 +50,6 @@ Invoify is a web-based invoice generator application built with Next.js 13, Type
 - [ ] **Custom Inputs:** Define your own inputs that are missing from the default invoice builder. (Ex: VAT number)
 - [ ] **Individual Tax for Line Items:** Add tax details for a specific line item other than the general tax
 
-## Demo
-
-> [!NOTE]
-> Please be advised that there are currently issues when using this application in the Mozilla Firefox browser. For more information, refer to [Issue #11](https://github.com/aliabb01/invoify/issues/11).
-
-Visit the [live demo](https://invoify.vercel.app) to see Invoify in action.
-
 ## Getting Started
 
 Follow these instructions to get Invoify up and running on your local machine.
@@ -71,8 +63,8 @@ Follow these instructions to get Invoify up and running on your local machine.
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/al1abb/invoify.git
-   cd invoify
+   git clone https://github.com/uakbr/invoiceify.git
+   cd invoiceify
    ```
 2. Install dependencies
    
@@ -90,10 +82,3 @@ Follow these instructions to get Invoify up and running on your local machine.
     npm run dev
     ```
 5. Open your web browser and access the application at [http://localhost:3000](http://localhost:3000)
-<!-- LICENSE -->
-## License
-
-Distributed under the MIT License. See `LICENSE.txt` for more information.
-
-## Discord
-Join the Discord server [here](https://discord.gg/BzT6g4Wj)
