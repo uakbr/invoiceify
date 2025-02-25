@@ -22,10 +22,9 @@ const nextConfig = {
             },
         ],
     },
-    // Increase network timeout for external resources
+    // Increase network keepalive
     httpAgentOptions: {
-        keepAlive: true,
-        timeout: 60000, // Increase timeout to 60 seconds
+        keepAlive: true
     }
 };
 
